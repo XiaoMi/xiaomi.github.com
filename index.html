@@ -1,0 +1,82 @@
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+    <title>LinkedIn Open Source</title>	  
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8" />
+    <meta name="description" content="LinkedIn open source projects on Githb" />
+    <meta name="keywords" content="LinkedIn, Open Source, Github, Hopscotch, Dust.js, DataFu, rest.li, venus.js, white-elephant, parseq" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/hover-min.css" />
+		<link rel="stylesheet" href="twitter-bootstrap/css/bootstrap.min.css" />
+	</head>
+	<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://linkedin.github.io/"><img src="images/linkedin-logo.png" alt="LinkedIn Open Source" class="logo"/></a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="http://linkedin.github.io/">Open Source</a></li>
+            <li><a href="https://github.com/linkedin/" target="_blank">Github</a></li>
+            <li><a href="http://engineering.linkedin.com/" target="_blank">Blog</a></li>
+            <li class="dropdown">
+              <a data-toggle="dropdown" href="#">Category <b class="caret"></b></a>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="category">
+                <li role="presentation"><a role="menuitem" href="#" class="filter">Data</a></li>
+                <li role="presentation"><a role="menuitem" href="#" class="filter">Frameworks</a></li>
+                <li role="presentation"><a role="menuitem" href="#" class="filter">SysOps</a></li>
+                <li role="presentation"><a role="menuitem" href="#" class="filter">Testing</a></li>
+                <li role="presentation"><a role="menuitem" href="#" class="filter">Other</a></li>
+                <li role="presentation"><a role="menuitem" href="#" class="filter">All</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a data-toggle="dropdown" href="#">Sort <b class="caret"></b></a>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="sort">
+                <li role="presentation"><a role="menuitem" href="#" class="sort" data-option-value="name">by name</a></li>
+                <li role="presentation"><a role="menuitem" href="#" class="sort" data-option-value="forks">by # of forks</a></li>
+                <li role="presentation"><a role="menuitem" href="#" class="sort" data-option-value="watchers">by # of watchers</a></li>
+                <li role="presentation"><a role="menuitem" href="#" class="sort" data-option-value="size">by size</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>     
+    <div class="container main-container">
+      <div class="hero-unit">
+        <h1>Open Source at LinkedIn</h1>
+        <p>The open source projects behind the world's largest professional network. These are the technologies we created to connect the world's professionals to make them more productive and successful.</p>
+      </div>      
+      <div id="isotope-container"></div>
+      <div id="modals"></div>
+    </div>
+		<script type="text/javascript" src='http://code.jquery.com/jquery-1.10.1.min.js'></script>
+		<script type="text/javascript" src="js/isotope.js"></script>
+    <script type="text/javascript" src="js/konami.js"></script>
+		<script type="text/javascript" src="twitter-bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/li-repo-blogposts.js"></script>
+		<script type="text/javascript" src="js/li-repo-categories.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-48320316-1', 'linkedin.github.io');
+      ga('send', 'pageview');
+
+    </script>      
+	</body>
+</html>
