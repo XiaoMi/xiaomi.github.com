@@ -1,11 +1,11 @@
-new Konami("https://www.linkedin.com");
+new Konami("http://www.mi.com");
 
 /*
   TODO need to incorporate pagination once we have > 100 repos
 */
 $.ajax({
   dataType: 'json',
-  url:'https://api.github.com/orgs/LinkedIn/repos?page=1&per_page=100&callback=?',
+  url:'https://api.github.com/orgs/XiaoMi/repos?page=1&per_page=100&callback=?',
   success: function(data) {
     // repo name to category for repo mapping
     var repoToCategory = {};
