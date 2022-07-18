@@ -17,6 +17,7 @@
 }
 
 .logo {
+  border-radius: 8px;
   vertical-align: bottom;
   margin-right: 10px;
 }
