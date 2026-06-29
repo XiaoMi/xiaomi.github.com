@@ -55,7 +55,7 @@ var liBlogposts =
   "posts":
   [
   {
-    "title": "Apache Samze: LinkedIn's real time stream processing framework",
+    "title": "Apache Samza: LinkedIn's real time stream processing framework",
     "url": "http://engineering.linkedin.com/data-streams/apache-samza-linkedins-real-time-stream-processing-framework"
   }
   ]
